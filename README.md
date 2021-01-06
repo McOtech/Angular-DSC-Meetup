@@ -1,6 +1,6 @@
-# ABM
+# Angular DSC Meetup
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
+This is an introductory project to learning angular
 
 ## Development server
 
