@@ -1,0 +1,6 @@
+<p>dashboard works!</p>
+<div *ngFor="let course of courses">
+    <a routerLink='/detail/{{course.id}}'>
+      <span class="badge">{{ course.name }}</span>
+    </a>
+  </div>

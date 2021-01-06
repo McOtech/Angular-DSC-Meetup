@@ -1,0 +1,13 @@
+<p>course-detail works!</p>
+<div *ngIf="course">
+  <h2>{{ course.name | uppercase}} Details</h2>
+  <div>
+    <span>ID: </span>{{ course.id}}
+  </div>
+  <div>
+    <label for="course_name">Name: </label>
+    <input [(ngModel)] = "course.name" placeholder="Course name" id="course_name">
+  </div>
+</div>
+
+<app-messages></app-messages>
